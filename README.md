@@ -1,9 +1,5 @@
 # List of frequently used annotations in Spring Boot apps 
 
-[![PRs Welcome][shield-prs]](https://github.com/gindex/spring-boot-annotation-list/blob/master/CONTRIBUTING.md)
-[![license][shield-license]](https://github.com/gindex/spring-boot-annotation-list/blob/master/LICENSE)
-
-
 This document contains non-comprehensive list of frequently used annotations in Spring Boot applications. 
 It should rather be used as a quick lookup list, for detailed and comprehensive information please read official javadocs and documentation.  
 
