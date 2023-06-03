@@ -80,7 +80,7 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 - [@EntityScan][entityscan] - Configures base packages to scan for entity classes 
 - [@EnableJpaRepositories][enablejparepositories] - Enables auto-configuration of jpa repositories
  
- ## Spring Boot Controller
+## Spring Boot Controller
  
 - [@Controller][controller] - 
 - [@RestController][restController] - 
