@@ -11,6 +11,7 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 ## Contents
 - [Core Spring](#core-spring)
 - [Spring Boot](#spring-boot)
+- [Spring Boot Controller] (#spring-boot-controller)
 - [Spring Boot Tests](#spring-boot-tests)
 - [Spring Test](#spring-test)
 - [Transactions](#transactions)
@@ -83,7 +84,12 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 - [@EntityScan][entityscan] - Configures base packages to scan for entity classes 
 - [@EnableJpaRepositories][enablejparepositories] - Enables auto-configuration of jpa repositories
  
- ## Spring Boot Tests
+ ## Spring Boot Controller
+ 
+- [controller]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Controller.html
+- [rest-controller]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html
+
+## Spring Boot Tests
  
 - [@SpringBootTest][springboottest] - Annotated test class will load the entire application context for integration tests
 - [@WebMvcTest][webmvctest] - Annotated test class will load only the web layer (service and data layer are ignored)
@@ -156,8 +162,6 @@ It should rather be used as a quick lookup list, for detailed and comprehensive 
 
 [bean]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html
 [component]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html
-[controller]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Controller.html
-[rest-controller]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html
 [config]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html
 [service]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html
 [repo]: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Repository.html
